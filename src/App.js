@@ -1,13 +1,11 @@
 import React from 'react';
-import TypeText from './components/TypeText';
-import TypeInput from './components/TextInput';
+import TestText from './components/TestText';
 
 function App() {
   return (
     <div>
       <h1> Type Test!</h1>
-      <TypeText />
-      <TypeInput />
+      <TestText />
     </div>
   );
 }
